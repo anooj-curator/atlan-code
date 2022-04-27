@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.query_editor {
+  padding: 20px; 
+  display: flex;
+  align-items: center;
+}
+
+.query_editor> *:not(:last-child){
+  margin-right: 20px;
+}
+
+.query_editor > .query_editor__textarea {
+  min-width: 300px;
+  min-height: 60px;
+}
